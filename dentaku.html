@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dentaku.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>電卓</title>
+  </head>
+  <body>
+    <input class=display /><br />
+
+    <button onclick="append( '1' )" >1</button>
+    <button onclick="append( '2' )" >2</button>
+    <button onclick="append( '3' )" >3</button>
+    <button onclick="append( '+' )" >+</button><br>
+    <button onclick="append( '4' )" >4</button>
+    <button onclick="append( '5' )" >5</button>
+    <button onclick="append( '6' )" >6</button>
+    <button onclick="append( '-' )" >-</button><br>
+    <button onclick="append( '7' )" >7</button>
+    <button onclick="append( '8' )" >8</button>
+    <button onclick="append( '9' )" >9</button>
+    <button onclick="append( '*' )" >*</button><br>
+    <button onclick="append( '0' )" >0</button>
+    <button onclick="append( '00' )" >00</button>
+    <button onclick="append( '.' )" >.</button>
+    <button onclick="append( '/' )" >/</button><br>
+    <button class="wide_button" onclick="update( '' ) " >AC</button>
+    <button class="wide_button" onclick="calc()">=</button>
+    <script src="dentaku.js"></script>
+  </body>
+</html>
